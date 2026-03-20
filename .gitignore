@@ -21,8 +21,8 @@ venv/
 *.log
 
 # Ignore files inside folders
-data/raw/*
-data/clean/*
+# data/raw/*
+# data/clean/*
 outputs/*
 
 # BUT keep the placeholder files
