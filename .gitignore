@@ -19,3 +19,14 @@ venv/
 
 # Logs
 *.log
+
+# Ignore files inside folders
+data/raw/*
+data/clean/*
+outputs/*
+
+# BUT keep the placeholder files
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+!outputs/.gitkeep
+!notebooks/.gitkeep
