@@ -26,10 +26,23 @@ Countries with stricter lockdowns experienced an additional **~12 AQI unit reduc
 
 ---
 
+## Visualizations
+The `notebooks/visualizations.ipynb` notebook produces a rich set of figures:
+
+1. **Animated World Heatmap** — interactive Plotly scatter-geo showing weekly relative AQI change per city with a play/pause slider  
+2. **World Heatmap GIF** — static bi-weekly frames compiled into a looping GIF via matplotlib  
+3. **AQI Time-Series** — monthly average AQI by country and 7-day rolling AQI for key cities (Delhi, New York, London, Paris, Berlin)  
+4. **Causal Inference Plots** — parallel trends, DiD group means, country-level pre/post slopes, and monthly DiD gap over time  
+
+All figures are saved to `outputs/figures/`.
+
+---
+
 ## Tech Stack
 - Python (Pandas, NumPy)
 - Statsmodels (regression modeling)
-- Matplotlib, Seaborn (visualization)
+- Matplotlib, Seaborn, Plotly (visualization)
+- Pillow & Kaleido (GIF / static image export)
 
 ---
 
